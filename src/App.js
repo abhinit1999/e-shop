@@ -1,15 +1,16 @@
-// import { Menu } from '@material-ui/core';
 import './App.css';
-import Banner from './components/Home'
+// import Header from './components/Home'
 import Menu from './components/Menu';
 import {menuItemsData} from './components/Menu/data';
 import Footer from './components/Footer';
-
+import Header from './components/Header';
+import Banner from './components/Home';
 function App() {
   return (
     <div>
     
-    <Banner />
+    <Header />
+    <Banner/>
 
 <Menu list={menuItemsData} />
 

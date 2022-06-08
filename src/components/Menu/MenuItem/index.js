@@ -15,6 +15,7 @@ const MenuItem = ({ item }) => {
       <div className="item_foot_desc">
         <span className="foot_desc_price">Rs.{price}</span>
         {/* <ButtonAddRemoveItem quantity={10} /> */}
+        <button>Add</button>
       </div>
     </div>
   );

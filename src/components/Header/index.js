@@ -8,22 +8,21 @@ const Header = () => {
       <div className="logo">
         <img src={logoImg} alt="logoImg" />
 
-        {/* <span>
-          <b>Taste</b>
-        </span>
-
-        <p>
-          <b>Resturant & BBQ</b>
-        </p> */}
+       
       </div>
       <div className="navBar">
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Explor More</a></li>
-          <li><a href="">Account</a></li>
+          <li>
+            <a href="">Home</a>
+          </li>
+          <li>
+            <a href="">Explor More</a>
+          </li>
+          <li>
+            <a href="">Account</a>
+          </li>
         </ul>
       </div>
-
     </div>
   );
 };

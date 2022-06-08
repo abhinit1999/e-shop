@@ -1,8 +1,14 @@
+
+
+
 .item
 {
     width: 150px;
     padding: 0 0.8rem 0.8rem 0.8rem;
-    background-color: rgb(242, 224, 224);
+    /* background-color: rgb(242, 224, 224); */
+    
+    background-color: rgb(197, 234, 149);
+    
     border-radius: 30px;
     text-align: center;
     flex-direction: column;
@@ -53,4 +59,26 @@
 .foot_desc_price
 {
     font-weight: 700;
+}
+
+button
+{
+    background-color: rgb(47, 228, 83);
+    color: rgb(173, 46, 46);
+    font-weight: bold;
+    border: none;
+    border-radius: 50%;
+    border-bottom: 3px solid;
+    border-top: 3px solid;
+
+    cursor: pointer;
+
+}
+button:hover
+{
+    background-color: rgb(212, 231, 209);
+    /* color: wheat; */
+    /* border-radius: 50%; */
+    border-bottom: 3px solid;
+    border-top: 3px solid;
 }

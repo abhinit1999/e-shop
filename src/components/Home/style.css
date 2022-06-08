@@ -47,6 +47,21 @@ header {
 .content_main p {
   font-weight: 500;
 }
+
+
+.divider
+{
+  border: 2px solid lightblue;
+  background-color: #3d2951;
+  color: #fff;
+  border-radius:15px;
+}
+.divider h2
+{
+  text-align: center;
+}
+
+
 @media (max-width: 768px) {
   .content_main h1 {
     font-size: 1.2rem;

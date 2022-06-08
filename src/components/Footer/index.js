@@ -1,17 +1,14 @@
-import React from 'react'
-import './style.css';
-import logo from './img/footer/titile.png';
-import app from './img/pay/app.jpg';
-import pay from './img/pay/pay.png';
-import play from './img/pay/play.jpg';
-
-
+import React from "react";
+import "./style.css";
+import logo from "./img/footer/titile.png";
+import app from "./img/pay/app.jpg";
+import pay from "./img/pay/pay.png";
+import play from "./img/pay/play.jpg";
 
 const Footer = () => {
   return (
-    <div >
-
-<footer className="section-p1">
+    <div>
+      <footer className="section-p1">
         <div className="col">
           {/* <img className="logo" src={logo} alt="img" /> */}
           <h4>Contact</h4>
@@ -65,16 +62,11 @@ const Footer = () => {
           <img src={pay} alt="payImage" />
         </div>
         <div className="copyright">
-          <p>© Copyright 2022 - Abhinit.</p>
+          <p>© Developed by - Abhinit.</p>
         </div>
       </footer>
-
-
-
-
-
     </div>
-  )
-}
+  );
+};
 
 export default Footer;
